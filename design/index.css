@@ -1,0 +1,312 @@
+.accordion-button {
+  font-size: calc(1.3rem + .6vw)!important;
+}
+
+input::-webkit-datetime-edit-day-field:focus,
+input::-webkit-datetime-edit-month-field:focus,
+input::-webkit-datetime-edit-year-field:focus {
+    background-color: #17bf874c;
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+.btn-primary {
+  background-color: #17bf86;
+  border-color: #17bf86;
+}
+
+.btn-primary:hover {
+  background-color: #17bf86;
+  border-color: #17bf86;
+}
+
+.form-check-input:checked {
+  background-color: #17bf86;
+  border-color: #17bf86;
+}
+
+input:focus { 
+  outline: none !important;
+  border-color: #17bf86;
+  box-shadow: 0 0 10px #17bf86;
+}
+
+.map {
+  height: 40%;
+}
+
+#clubs{
+  padding-top: 10px;
+
+}
+
+#accordionFlushExample{
+  border-width: 10px;
+  border-color: #fff;
+}
+
+.accordion-item, .accordion-item:focus, .accordion-item:active{
+  border: 5px solid rgb(157, 148, 148) !important;
+  margin-bottom: 10px;
+}
+
+
+.accordion-button:not(.collapsed) {
+  border-color: #000000; 
+  box-shadow:#000000 !important;
+  color: rgb(255, 255, 255);
+  background-color: #000;
+  border-width: 10px;
+  
+
+}
+
+.accordion-button:focus {
+  border-color: #000000 !important;
+  box-shadow:#000000 !important;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #000000;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
+  box-shadow: none;
+}
+
+.accordion-button:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.accordion-body{
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-button{
+  background-color: #000;
+  color: #fff;
+}
+
+bx-date-picker:not(:defined) {
+  display: none;
+}
+
+#card{
+  padding: 10;
+}
+
+#infoIcon{
+  padding-right: 15px;
+}
+
+#locationText{
+  padding-top: 11px;
+  padding-left: 10px;
+}
+
+#locationText2{
+  padding-top: 6px;
+  padding-left: 10px;
+}
+
+#filter {
+  padding-bottom: 10px;
+  
+}
+
+#calendar {
+  display: inline-block;
+  position: relative;
+  font-size: 40px
+}
+
+#concertsHtml {
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+#eventsHtml {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+#clubsHtml {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+#calendar {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#date {
+  color: #fff;
+  margin-top: 15px;
+}
+
+.fs-3 {
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.fs-4 {
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+#navbar_top {
+  background-color: #000;
+
+}
+
+#main {
+  padding-top: 70px;
+
+}
+
+#wholeFrame {
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+}
+
+#hamburger {
+  width: 60px;
+  height: 60px;
+  border: 4px solid #fff;
+  padding: 4px;
+  display: inline-block;
+  border-radius: 48px;
+  cursor: pointer;
+}
+
+
+.navLine {
+  display: block;
+  height: 4.3px;
+  background: #fff;
+  margin-top: 7px;
+  width: 60%;
+  margin-left: 20%;
+  transition: all 180ms linear
+}
+
+#hamburger:hover .navLine:nth-child(2) {
+  width: 45%;
+}
+
+#hamburger:hover .navLine:nth-child(2):after {
+  opacity: 1
+}
+
+.navLine:nth-child(2):after {
+  content: "";
+  float: right;
+  color: #fff;
+  font-size: 10px;
+  margin-top: -6px;
+  margin-right: -25px;
+  opacity: 0;
+}
+
+.card {
+  /* border: 5px solid #87d5ba; */
+  border: 5px solid rgb(157, 148, 148);
+}
+
+
+#rtlNav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background: #000;
+  transition: all 180ms linear;
+  z-index: 999;
+  transform: translateX(100%)
+}
+
+.activeClass {
+  transform: translateX(0%) !important
+}
+
+.activeClassnew {
+  transform: translateX(0%) !important
+}
+
+
+.subNavLinks {
+  transform: translateX(10%) !important;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #87d5ba;
+}
+
+.subNavLinks:after {
+  display: block;
+  content: '';
+  border-bottom: solid 3px #18bf86;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.subNavLinks:hover:after {
+  transform: scaleX(1);
+}
+
+.subNavLinks.fromRight:after {
+  transform-origin: 100% 50%;
+}
+
+.subNavLinks.fromLeft:after {
+  transform-origin: 0% 50%;
+}
+
+.subNavLinks:hover {
+  color: #fff
+}
+
+#closeMenu {
+  float: right;
+
+  margin-right: 6%;
+  margin-top: 1.3%;
+  color: #fff;
+  font-size: 2em;
+  cursor: pointer
+}
+
+#linkFlexOuter {
+  padding-right: 25px;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+#linkFlexInner {
+  flex: 1;
+  align-items: center;
+}
+
+body {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+  background: rgb(0, 0, 0);
+  /* Old browsers */
+}
+
+button.btn-block {
+  background: #18bf86;
+}
+
+button.btn-outlined {
+  border-color: #18bf86;
+  color: #fff
+}
