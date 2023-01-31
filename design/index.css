@@ -2,6 +2,27 @@
   font-size: calc(1.3rem + .6vw)!important;
 }
 
+#stars{
+  padding-bottom: 10px;
+}
+
+#starbox{
+  padding-left: 12px;
+}
+
+#top{
+  padding-bottom: 10px;
+  color:#87d5ba
+}
+
+#bewertung{
+  padding-bottom: 25px;
+}
+
+#paragraf{
+  margin-bottom: 25px;
+}
+
 input::-webkit-datetime-edit-day-field:focus,
 input::-webkit-datetime-edit-month-field:focus,
 input::-webkit-datetime-edit-year-field:focus {
